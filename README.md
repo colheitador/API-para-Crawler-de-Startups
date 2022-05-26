@@ -2,6 +2,7 @@
 As informações desta aplicação são baseadas no website startupbase.
 
 (o webscraping foi possível nas páginas de 9633 startups /9725 links não-nulos = 99,05% )
+
 Para executar a aplicação, abra o terminal e vá ao diretório onde está o arquivo "main.py". Execute "uvicorn main:app --reload", espere o carregamento e vá até o endereço IP mostrado pelo terminal. Acrescente "/docs" ao final do endereço. 
 
 Ex: http://127.0.0.1:8000/docs
