@@ -19,7 +19,7 @@ Quanto ao chromedriver:
 
 O chromedriver deste repositório é para a versão 101 do google chrome. Para baixar o chromedriver de outra versão: https://chromedriver.chromium.org/downloads
 
-
+__________________________________________________________________________
 
 Quanto ao postgresql:
 Também certifique-se de ter o postgresql instalado e configurado. Website para download: https://www.postgresql.org/download/
