@@ -1,5 +1,5 @@
 # API-para-Crawler-de-Startups
-As informações desta aplicação são baseadas no website startupbase.
+As informações desta aplicação são baseadas no website StartupBase.
 
 (o webscraping foi possível nas páginas de 9633 startups /9725 links não-nulos = 99,05% )
 
