@@ -13,7 +13,7 @@ Para usar a função "Pesquisar Por Nome", digite uma palavra ou sequencia de ca
 
 Caso queira atualizar a base de dados, instale as dependências necessárias, certifique-se de ter o postgresql já configurado, abra o arquivo "scraper_e_crawler_startups.ipynb", leia os comentários para entender o funcionamento do programa e execute apenas as células necessárias.
 
-
+__________________________________________________________________________
 
 Quanto ao chromedriver:
 
