@@ -11,4 +11,4 @@ Para usar a função "Pesquisar Por Cidade Ou Sigla Do Estado", clique em "Try i
 Para usar a função "Pesquisar Por Descrição", digite uma palavra ou sequência de caracteres presentes na descrição da empresa;
 Para usar a função "Pesquisar Por Nome", digite uma palavra ou sequencia de caracteres presentes no nome empresa.
 
-Caso queira atualizar a base de dados, utilize o arquivo "scraper_e_crawler_startups.ipynb", leia os comentários para entender o funcionamento do programa e execute apenas as células necessárias.
+Caso queira atualizar a base de dados, instale os pacotes necessários, abra o arquivo "scraper_e_crawler_startups.ipynb", leia os comentários para entender o funcionamento do programa e execute apenas as células necessárias.
