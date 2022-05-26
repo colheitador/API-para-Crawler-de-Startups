@@ -12,3 +12,20 @@ Para usar a função "Pesquisar Por Descrição", digite uma palavra ou sequênc
 Para usar a função "Pesquisar Por Nome", digite uma palavra ou sequencia de caracteres presentes no nome empresa.
 
 Caso queira atualizar a base de dados, instale as dependências necessárias, certifique-se de ter o postgresql já configurado, abra o arquivo "scraper_e_crawler_startups.ipynb", leia os comentários para entender o funcionamento do programa e execute apenas as células necessárias.
+
+
+O chromedriver deste repositório é para a versão 101 do google chrome. Para baixar o chromedriver de outra versão: https://chromedriver.chromium.org/downloads
+
+Também certifique-se de ter o postgresql instalado e configurado. Website para download: https://www.postgresql.org/download/
+
+Uma das coisas que costuma ser necessária é abrir o arquivo pg_hba.conf e escrever 0.0.0.0/0 no lugar do endereço de ipv4
+
+Troque isto:
+
+IPv4 local connections:
+host all all 127.0.0.1/32 scram-sha-256
+
+Por isto:
+
+IPv4 local connections:
+host all all 0.0.0.0/0 scram-sha-256
