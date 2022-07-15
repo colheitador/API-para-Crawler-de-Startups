@@ -3,7 +3,9 @@ As informações desta aplicação são baseadas no website StartupBase.
 
 (o webscraping foi possível nas páginas de 9633 startups /9725 links não-nulos = 99,05% )
 
-Para executar a aplicação, abra o terminal e vá ao diretório onde está salvo o arquivo "main.py". Execute "uvicorn main:app --reload", espere o carregamento e vá até o endereço IP mostrado pelo terminal. Acrescente "/docs" ao final do endereço. 
+Para acessar as informações sem a utilização da API, veja os arquivos "startups.db" ou "tabela_startups.csv", que são, respectivamente um banco de dados do SQLite e um arquivo CSV que pode ser lido como tabela.
+
+Para utilizar a API, abra o terminal e vá ao diretório onde está salvo o arquivo "main.py". Execute "uvicorn main:app --reload", espere o carregamento e vá até o endereço IP mostrado pelo terminal. Acrescente "/docs" ao final do endereço. 
 
 Ex: http://127.0.0.1:8000/docs
 
